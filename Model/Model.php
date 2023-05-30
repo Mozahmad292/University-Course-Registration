@@ -4,10 +4,10 @@
     // Delete Query
     public function deleteAdvisedCourse() {
       include('connect.php');
-      $section = $_SESSION['section'];
-		  $faculty = $_SESSION['faculty'];
+      $stid = $_SESSION['STID'];
+      $course_id = $_SESSION['course_id'];
     
-      $query = "DELETE FROM `advised_course` WHERE section='".$section."' and faculty='".$faculty."'";
+      $query = "DELETE FROM `advised_course` WHERE STID='".$stid."' and COURSE_ID='".$course_id."'";
 
       return mysqli_query($con, $query);
     }
@@ -16,9 +16,9 @@
     // Login Query
     public function login() {
       include('connect.php');
-      $stname = $_SESSION['username'];
+      $stid = $_SESSION['username'];
     
-      $user_check_query = "SELECT * FROM student WHERE STNAME='$stname' LIMIT 1";
+      $user_check_query = "SELECT * FROM student WHERE STID='".$stid."' LIMIT 1";
       $results = mysqli_query($con, $user_check_query);
       $user = mysqli_fetch_assoc($results);
 

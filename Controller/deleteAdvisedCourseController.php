@@ -2,9 +2,10 @@
   session_start();
   include('controller.php');
 
-  if(isset($_GET['section']) && isset($_GET['faculty'])){
+  if(isset($_GET['section']) && isset($_GET['faculty']) && isset($_GET['course_id'])){
 		$_SESSION['section'] = $_GET['section'];
 		$_SESSION['faculty'] = $_GET['faculty'];
+		$_SESSION['course_id'] = $_GET['course_id'];
 		
 		if ($model->deleteAdvisedCourse()) {
 

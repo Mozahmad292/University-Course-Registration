@@ -13,7 +13,7 @@
         <tbody>
           <?php  
             foreach ($rows as $row):
-              echo "<tr><td><b>".$row['COURSE_ID']."</b></td><td><b>".$row['SECTION']."</b></td><td><b>".$row['FACULTY']."</b></td><td><b><a href='../Controller/deleteAdvisedCourseController.php?section=".$row['SECTION']."&faculty=".$row['FACULTY']."'>Drop</a></b></td></tr>";
+              echo "<tr><td><b>".$row['COURSE_ID']."</b></td><td><b>".$row['SECTION']."</b></td><td><b>".$row['FACULTY']."</b></td><td><b><a href='../Controller/deleteAdvisedCourseController.php?section=".$row['SECTION']."&faculty=".$row['FACULTY']."&course_id=".$row['COURSE_ID']."'>Drop</a></b></td></tr>";
             endforeach;            
           ?>
         </tbody>
