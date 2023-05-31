@@ -1,18 +1,6 @@
 <?php
   class Model {
-
-    // Delete Query
-    public function deleteAdvisedCourse() {
-      include('connect.php');
-      $section = $_SESSION['section'];
-		  $faculty = $_SESSION['faculty'];
     
-      $query = "DELETE FROM `advised_course` WHERE section='".$section."' and faculty='".$faculty."'";
-
-      return mysqli_query($con, $query);
-    }
-    
-
     // Login Query
     public function login() {
       include('connect.php');
@@ -81,6 +69,17 @@
       $result = mysqli_query($con, $sql);
 
       return mysqli_fetch_all($result, MYSQLI_ASSOC);
+    }
+	  
+	  // Delete Query
+    public function deleteAdvisedCourse() {
+      include('connect.php');
+      $section = $_SESSION['section'];
+		  $faculty = $_SESSION['faculty'];
+    
+      $query = "DELETE FROM `advised_course` WHERE section='".$section."' and faculty='".$faculty."'";
+
+      return mysqli_query($con, $query);
     }
 
     // Check Query
