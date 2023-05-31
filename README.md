@@ -4,7 +4,7 @@ It is a open-credit university course registration system developed in MVC desig
 
 ### Backend : php & sql, Frontend : html,CSS
 
-### DEMO : [https://uni-course-registration.000webhostapp.com/View/login.php](https://courseregistration123.000webhostapp.com/View/login.php) (Demo Login > Username: 22 , Password :2   OR : 44,4)
+### DEMO : [https://uni-course-registration.000webhostapp.com/View/login.php](https://courseregistration123.000webhostapp.com/View/login.php) (Demo Login > Username: Nayam , Password :2   OR : Siam,4)
 ### NB : Compatible with Chrome Browser
 
 
