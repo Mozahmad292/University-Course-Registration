@@ -15,6 +15,30 @@ class Model
     return $user;
   }
 
+  public function resetPassword()
+  {
+    include('connect.php');
+    $email = $_SESSION['receiverEmail'];
+
+    $user_check_query = "SELECT * FROM student WHERE `Email address`='" . $email . "' LIMIT 1";
+    $results = mysqli_query($con, $user_check_query);
+    $user = mysqli_fetch_assoc($results);
+
+    return $user;
+  }
+
+  public function updatePassword()
+  {
+    include('connect.php');
+    $newPassword = $_SESSION['newPassword'];
+    $userStid = $_SESSION['userStid'];
+
+    $sql = "UPDATE student set PASSWORD='" . $newPassword . "' WHERE STID='" . $userStid . "'";
+    $con->query($sql);
+
+    return $user;
+  }
+
   // View Queries
   public function courseView()
   {

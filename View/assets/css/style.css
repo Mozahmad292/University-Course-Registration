@@ -18,8 +18,8 @@ html{
     height: auto;
 }
 button{
-  color: white; 
-  background: black;  
+  color: white;
+  background: black;
 }
 
 body{
@@ -31,10 +31,10 @@ body{
   font-weight: 400;
   background: url("../image/cover.jpg"); /*url("https://source.unsplash.com/5i0GnoTTjSE");*/
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
  	/* Font Smoothing Below*/
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;	
+	-moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -76,13 +76,35 @@ nav{
   text-decoration: none;
 }
 
-.form-container {
+.form-container, .card-container {
   width: 30vw;
   margin-left: auto;
   margin-right: auto;
   background-color: #f7dcb7;
-  padding: 2vw;
-  margin-top: 33vh;
+  padding: 1vw;
+  margin-top: 30vh;
+}
+
+.form-title, .card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body p {
+  margin: 5px;
+}
+
+.form-title h2 {
+  margin: 0;
+  margin-bottom: 1vw;
 }
 
 .form {
@@ -154,8 +176,8 @@ nav ul li a:hover {
 
 .logout {
   margin-top: -6%;
-  height: 25px; 
-  width:80px; 
+  height: 25px;
+  width:80px;
   border-radius:15%;
   cursor: pointer;
 }
