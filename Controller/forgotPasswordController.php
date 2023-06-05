@@ -17,9 +17,9 @@ if (file_exists($dotenvPath)) {
 
 if ($DEBUG) {
   // For local
-  require dirname(__DIR__) . '/PHPMailer-master/src/PHPMailer.php';
-  require dirname(__DIR__) . '/PHPMailer-master/src/SMTP.php';
-  require dirname(__DIR__) . '/PHPMailer-master/src/Exception.php';
+  require dirname(__DIR__) . '/mail/PHPMailer.php';
+  require dirname(__DIR__) . '/mail/SMTP.php';
+  require dirname(__DIR__) . '/mail/Exception.php';
 } else {
   // For 000webhost
   require $_SERVER['DOCUMENT_ROOT'] . '/mail/Exception.php';
