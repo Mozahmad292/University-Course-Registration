@@ -4,7 +4,6 @@
 <?php include('templates/header.php'); ?>
 
 <body align="center">
-  <br><br><br><br><br>
   <h1 style="margin-top: 10vh">Advised Courses</h1>
   <div>
     <h2>
@@ -27,6 +26,7 @@
       </table>
     </h2>
   </div>
+  <br>
 </body>
 
 </html>
