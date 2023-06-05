@@ -9,4 +9,4 @@ It is a open-credit university course registration system developed in MVC desig
 ### NB : Compatible with Chrome Browser
 
 
-### LOCALHOST SETUP : XAMPP(APACHE & MYSQL)
+LOCALHOST SETUP : XAMPP(APACHE & MYSQL)
