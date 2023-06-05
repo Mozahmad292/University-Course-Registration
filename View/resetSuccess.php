@@ -4,12 +4,6 @@
 <head>
   <title>Password Reset Successfully</title>
   <div class="container">
-    <nav>
-      <div class="logo">
-        <a href="#"><img class="resize" src="assets/image/Capture.PNG" alt=""></a>
-      </div>
-    </nav>
-
     <div class="card-container">
       <div class="card-title">
         <h2>Password Reset Successfully</h2>

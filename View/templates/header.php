@@ -1,9 +1,6 @@
-  <head>
+<head>
     <div class="container">
-        <nav>
-          <div class="logo">
-            <a href="#"><img class="resize" src="assets/image/Capture.PNG" alt=""></a>
-          </div>
+      <nav>
           <div class="nav-wrapper">
             <ul class="menu" >
               <li><a href="unfinished.php" class="add-course active" >Add Courses</a></li>

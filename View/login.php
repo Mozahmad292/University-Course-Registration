@@ -4,12 +4,6 @@
 <head>
   <title>Login</title>
   <div class="container">
-    <nav>
-      <div class="logo">
-        <a href="#"><img class="resize" src="assets/image/Capture.PNG" alt=""></a>
-      </div>
-    </nav>
-
     <div class="form-container">
       <div class="form-title">
         <h2>Login</h2>
