@@ -1,5 +1,11 @@
 <?php include('../Controller/viewSeatStatusController.php'); ?>
 <html>
+
+<head>
+  <title>Sections</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
 <?php include('templates/header.php'); ?>
 
 <body align="center">

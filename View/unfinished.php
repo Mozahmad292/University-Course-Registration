@@ -1,5 +1,11 @@
 <?php include('../Controller/viewAddCourseController.php'); ?>
 <html>
+
+<head>
+  <title>Unfinished Courses</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
 <?php include('templates/header.php'); ?>
 
 <body align="center">

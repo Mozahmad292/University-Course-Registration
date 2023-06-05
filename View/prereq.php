@@ -1,6 +1,12 @@
 <?php include('../Controller/viewPreReqCourseController.php'); ?>
 
 <html>
+
+<head>
+  <title>Prerequisite Courses</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
 <?php include('templates/header.php'); ?>
 
 <body align="center">

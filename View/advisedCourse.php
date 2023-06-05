@@ -1,6 +1,12 @@
 <?php include('../Controller/viewAdvisedCourseController.php') ?>
 
 <html>
+
+<head>
+  <title>Advised Course</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
 <?php include('templates/header.php'); ?>
 
 <body align="center">

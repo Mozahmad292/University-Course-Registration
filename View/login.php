@@ -3,6 +3,10 @@
 
 <head>
   <title>Login</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
   <div class="container">
     <div class="form-container">
       <div class="form-title">
@@ -31,9 +35,7 @@
         </li>
       </form>
     </div>
-
   </div>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
+</body>
 
 </html>

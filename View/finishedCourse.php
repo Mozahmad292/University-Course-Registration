@@ -1,6 +1,12 @@
 <?php include('../Controller/viewFinishedCourseController.php') ?>
 
 <html>
+
+<head>
+  <title>Finished Courses</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
 <?php include('templates/header.php'); ?>
 <body align="center">
   <h1 style="margin-top: 10vh">Finished Courses</h1>
