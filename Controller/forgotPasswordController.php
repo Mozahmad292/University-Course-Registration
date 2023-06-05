@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Port = 587;
 
         // Sender and recipient details
-        $mail->setFrom('emailsender630@gmail.com', 'Email Sender');
+        $mail->setFrom('emailsender630@gmail.com', 'Course Registration Admin');
         $mail->addAddress($receiverEmail, 'Recipient Name');
 
         // Email content
