@@ -27,7 +27,7 @@
           </li>
         </b>
         <li>
-          Don't need to reset ? <a href="login.php">Login</a>
+          Don't need to reset password ? <a href="login.php">Login</a>
         </li>
       </form>
     </div>

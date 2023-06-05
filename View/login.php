@@ -33,7 +33,7 @@
           </li>
         </b>
         <li>
-          Don't remember password ? <a href="forgotPassword.php">forgot password</a>
+          <a href="forgotPassword.php">Forgotten password ?</a>
         </li>
       </form>
     </div>
