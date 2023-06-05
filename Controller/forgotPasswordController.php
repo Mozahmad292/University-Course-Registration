@@ -80,12 +80,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           </html>
         ";
 
-        echo 'before Email sent.';
-
         // Send the email
         $mail->send();
-        echo 'Email sent successfully.';
-
         echo "<script type='text/javascript'>
                   window.location='../View/resetSuccess.php';
               </script>";

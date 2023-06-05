@@ -35,8 +35,6 @@ class Model
 
     $sql = "UPDATE student set PASSWORD='" . $newPassword . "' WHERE STID='" . $userStid . "'";
     $con->query($sql);
-
-    return $user;
   }
 
   // View Queries
