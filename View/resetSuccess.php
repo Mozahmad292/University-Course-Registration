@@ -10,11 +10,11 @@
   <div class="container">
     <div class="card-container">
       <div class="card-title">
-        <h2>Password Reset Successfully</h2>
+        <h2>Password Reset Successful</h2>
       </div>
       <div class="card-body">
-        <p>Your password has been successfully reset.</p>
-        <p>You can now <a href="login.php">log in</a> using your new password.</p>
+        <p>An new password is sent to your Email</p>
+        <p>You can now <a href="login.php">log in</a> with your new password.</p>
       </div>
     </div>
   </div>
