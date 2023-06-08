@@ -13,6 +13,6 @@
                   window.location='../View/unfinished.php';
               </script>";
       exit();
-    } else echo '<script type ="text/Javascript">alert("NOT A STUDENT OF THIS UNIVERSITY");</script>';
+    } else echo '<script type ="text/Javascript">alert("Wrong Username/Password");</script>';
   }
 
